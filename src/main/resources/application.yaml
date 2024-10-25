@@ -1,0 +1,24 @@
+server:
+  port: 6061
+
+spring:
+  application:
+    name: inventory-service
+
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/inventory-service-db
+    username: service
+    password: inventory
+  jpa:
+    show-sql: true
+
+  flyway:
+    locations: classpath:db/migration
+
+management:
+  endpoints:
+    web:
+      base-path: "/api/management"
+      exposure:
+        include: "health,info"
