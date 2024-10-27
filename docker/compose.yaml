@@ -4,6 +4,6 @@ services:
     environment:
       - POSTGRES_DB=inventory-service-db
       - POSTGRES_USER=inventory-service-user
-      - POSTGRES_PASSWORD=inventory-service
+      - POSTGRES_PASSWORD=inventory-service-password
     ports:
       - "5432:5432"
