@@ -10,7 +10,7 @@
 	</parent>
 
 	<!-- Change me -->
-	<groupId>com.mab.inventory</groupId>
+	<groupId>com.mgs.inventory</groupId>
 	<artifactId>inventory-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>inventory-service</name>

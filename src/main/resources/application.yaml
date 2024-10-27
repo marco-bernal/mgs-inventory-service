@@ -8,8 +8,8 @@ spring:
   datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/inventory-service-db
-    username: service
-    password: inventory
+    username: inventory-service-user
+    password: inventory-service
   jpa:
     show-sql: true
 

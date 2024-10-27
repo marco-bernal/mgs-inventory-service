@@ -3,7 +3,7 @@ services:
     image: postgres
     environment:
       - POSTGRES_DB=inventory-service-db
-      - POSTGRES_USER=service
-      - POSTGRES_PASSWORD=inventory
+      - POSTGRES_USER=inventory-service-user
+      - POSTGRES_PASSWORD=inventory-service
     ports:
       - "5432:5432"
