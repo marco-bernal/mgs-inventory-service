@@ -3,13 +3,13 @@ server:
 
 spring:
   application:
-    name: inventory-service
+    name: product-service
 
   datasource:
     driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/inventory-service-db
-    username: inventory-service-user
-    password: inventory-service
+    url: jdbc:postgresql://localhost:25433/product-service-db
+    username: product-service-user
+    password: product-service-password
   jpa:
     show-sql: true
 

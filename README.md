@@ -1,1 +1,1 @@
-# Inventory service for the MiniGroceryStore PoC
+# Product service for the MiniGroceryStore PoC
